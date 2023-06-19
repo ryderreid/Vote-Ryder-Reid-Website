@@ -281,6 +281,24 @@ textarea {
       .about__content-details-para:last-child {
         margin-bottom: 4rem; }
 
+        .vote {
+          background: #fafafa; }
+          .vote__content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 10rem; }
+            @media only screen and (max-width: 56.25em) {
+              .vote__content {
+                grid-template-columns: 1fr;
+                grid-gap: 8rem; } }
+            .vote__content-title {
+              font-weight: 700;
+              font-size: 2.8rem;
+              margin-bottom: 3rem; }
+              @media only screen and (max-width: 37.5em) {
+                .about__content-title {
+                  font-size: 2.4rem; } }
+
 .projects__row {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
@@ -685,6 +703,20 @@ textarea {
     border-radius: 5px;
     font-weight: 600;
     color: #777; }
+
+    .votingskills {
+      display: flex;
+      flex-wrap: wrap; }
+      .vote_skills {
+        padding: 1rem 2rem;
+        margin-bottom: 1.5rem;
+        margin-right: 1.5rem;
+        font-size: 1.6rem;
+        background: rgba(153, 153, 153, 0.2);
+        border-radius: 5px;
+        font-weight: 600;
+        color: #777; }
+    
 
 .mouse {
   width: 25px;

@@ -1,55 +1,288 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
-    <meta http-equiv="Content-Security-Policy" content="default-src &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src data:; connect-src &#39;self&#39;">
-    <link rel="icon" href="./52.png">
-    <title>Maintenance - Vote Ryder Reid</title>
-    <style type="text/css" media="screen">
-      body {
-        background-color: #f1f1f1;
-        margin: 0;
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-      }
+<html lang="en">
 
-      .container { margin: 50px auto 40px auto; width: 600px; text-align: center; }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Vote Ryder Reid</title>
+  <meta name="description" content="The Official Campaign Website for Ryder Reid" />
 
-      a { color: #4183c4; text-decoration: none; }
-      a:hover { text-decoration: underline; }
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/x-icon" href="./assets/png/logo.png">
 
-      h1 { width: 800px; position:relative; left: -100px; letter-spacing: -1px; line-height: 60px; font-size: 60px; font-weight: 100; margin: 0px 0 50px 0; text-shadow: 0 1px 0 #fff; }
-      p { color: rgba(0, 0, 0, 0.5); margin: 20px 0; line-height: 1.6;}
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+    rel="stylesheet" />
+</head>
 
-      ul { list-style: none; margin: 25px 0; padding: 0; }
-      li { display: table-cell; font-weight: bold; width: 1%; }
-
-      #suggestions {
-        margin-top: 35px;
-        color: #ccc;
-      }
-      #suggestions a {
-        color: #666666;
-        font-weight: 200;
-        font-size: 14px;
-        margin: 0 10px;
-      }
-
-    </style>
-  </head>
-  <body>
-
-    <div class="container">
-
-      <h1>404</h1>
-      <p><strong>Under Maintenance</strong></p>
-
-      <p>
-        Vote Ryder Reid is Currently Under Scheduled Maintenance! We will be back soon!
-      </p>
-
-      <div id="suggestions">
-        <a><strong>©️ 2023 Vote Ryder Reid</strong></a>
+<body>
+  <header class="header">
+    <div class="header__content"> <!--Art Gallery. Old Art place is getting removed?-->
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="./assets/png/logo.png" class="header__logo-img" />
+        </div>
+        <span class="header__logo-sub">Vote Ryder Reid</span>
       </div>
-    </body>
-    </html>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="https://vote.ryderreid.net" class="header__link"> Home </a>
+          </li>
+          <!-- <li class="header__link-wrapper">
+            <a href="./pages/survey.html" class="header__link">Have your say</a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./pages/media.html" class="header__link">Media Releases</a>
+          </li>-->
+          <li class="header__link-wrapper">
+            <a href="#about" class="header__link">About </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./Privacy Policy.pdf" class="header__link">Privacy Policy </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="#contact" class="header__link"> Contact </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./" class="header__link"> Home </a>
+          </li>
+
+          <!--<li class="header__sm-menu-link">
+            <a href="./pages/say.html" class="header__link">Have your say</a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./pages/media.html" class="header__link">Media Releases</a>
+          </li>-->
+
+          <li class="header__sm-menu-link">
+            <a href="#about" class="header__link">About </a>
+          </li>
+          <li class="header__sm-menu-link">
+            <a href="./Privacy Policy.pdf" class="header__link">Privacy Policy </a>
+          </li>
+          <li class="header__sm-menu-link">
+            <a href=".#contact" class="header__link"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="home-hero">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">VOTE RYDER REID 2023</h1>
+      <div class="home-hero__info">
+        <p class="text-primary">
+        </p>
+      </div>
+      <div class="home-hero__cta">
+        <a href="#vote" class="btn btn--bg">Vote Now</a>
+        <!--<a class="btn btn--bg--dis">Voting has not opened</a>-->
+        <!--<a href="./errors/403.html" class="btn btn--bg">Vote Ryder Reid</a>-->
+      </div>
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+      <div class="mouse"></div>
+    </div>
+  </section>
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">About Me</span>
+        <span class="heading-sec__sub">
+        </span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">Information</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              Hey! I'm
+              <strong>Ryder Reid</strong>
+              at the age of 14, I am actively participating in the 2023 Young Mayor campaign for Horsham, Victoria. My
+              motivation stems from the belief that I can bring about meaningful and beneficial changes as a candidate
+              for the Horsham Youth Council. Many of my friends and I have expressed the need for numerous improvements
+              within our community, but these requests have remained unaddressed. This is precisely why I have the
+              confidence to turn some of these desired changes into reality. Even if they are seemingly small in scale,
+              I firmly believe they can have a significant impact on my friends and the overall community.
+
+              One of the primary reasons behind my candidacy for the position of Young Mayor of Horsham is my
+              observation that the current council fails to address the needs of teenagers like myself. It appears that
+              there are limited resources and initiatives specifically tailored to our age group. While the council
+              undertakes projects aimed at younger and older demographics, teenagers are often left with a lack of
+              options. This realization serves as a driving force for my decision to run for the position of Youth
+              Mayor.
+            </p>
+
+            </p>
+          </div>
+        </div>
+
+        <div class="about__content-skills">
+          <h3 class="about__content-title">My Skills</h3>
+          <div class="skills">
+            <div class="skills__skill">Leadership</div>
+            <div class="skills__skill">Dependable</div>
+            <div class="skills__skill">Responsible</div>
+            <div class="skills__skill">Team Building</div>
+            <div class="skills__skill">Team Management</div>
+            <div class="skills__skill">Self Motivated</div>
+            <div class="skills__skill">Active Listening</div>
+            <div class="skills__skill">Negotiable</div>
+            <div class="skills__skill">Problem Solving</div>
+            <div class="skills__skill">Moutainbike Riding</div>
+            <div class="skills__skill">Web Design</div>
+            <div class="skills__skill">Video Editing</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="vote" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">Voting Locations</span>
+        <span class="heading-sec__sub">
+        </span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">Information</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              A voting location is where eligible citizens cast their votes, enabling democratic participation. These
+              sites, often public buildings like schools or community centers, facilitate fair elections with ballot
+              boxes and trained staff. Voting locations empower individuals to exercise their right to vote, fostering
+              democratic values and civic engagement.
+            </p>
+          </div>
+        </div>
+
+        <div class="about__content-skills">
+          <h3 class="about__content-title">Locations</h3>
+          <div class="skills">
+            <a href="https://goo.gl/maps/vWef8gAXAuEXQXLu5" class="skills__skill">Horsham College</a>
+            <a href="https://goo.gl/maps/vD6Sx6WJGpDpb1xE8"class="skills__skill">St Brigid's College</a>
+            <a href="https://goo.gl/maps/5KzwL1a3QdnP9E2y6"class="skills__skill">Holy Trinity Lutheran College</a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">If Elected</span>
+        <span class="heading-sec__sub">
+          If I am elected as Horsham's Young Mayor, I will wholeheartedly dedicate my time and effort to serving the
+          Horsham community. My focus will be on addressing the well-known issues that exist within our community and
+          giving a voice to the younger generation. I strongly believe that young people should always be included in
+          discussions regarding changes in their community. If I have the privilege of being elected, I will strive to
+          improve communication with younger members of the community and actively seek out the issues they face. It is
+          crucial to ensure that the younger population has a say in shaping the future of Horsham.
+        </span>
+      </h2>
+
+      <div class="projects__content">
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/png/pro1.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">River Activities</h3>
+            <p class="projects__row-content-desc">
+              During the summer, it's great to enjoy the outdoors with friends and cool off with a swim after a hot day.
+              However, many kids and teens opt to stay inside and use their phones because there aren't many activities
+              available at the Wimmera River besides swimming. The river is one of the few free swimming spots in
+              Horsham, but the existing rope swings, installed by community members, are often crowded. To address this,
+              I aim to introduce additional activities along the Wimmera River to encourage social interaction and fun.
+              By diversifying the options, we can provide more opportunities for young people to enjoy the river and
+              make the most of summer.
+            </p>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/png/pro2.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Bike Jumps</h3>
+            <p class="projects__row-content-desc">
+              One issue that my friends frequently complain about is the state of the Horsham Skate Park Bike Jumps. The
+              current jumps are disappointing, consisting of mere piles of dirt. This situation fails to showcase to new
+              families in Horsham how our citizens spend their free time. Additionally, individuals have resorted to
+              building their own bike jumps throughout Horsham, only to have them removed by the council a week later.
+              This led to the creation of the Burnt Creek Bike Jumps near Burnt Creek in Horsham, where many people
+              gather. However, it is unfair that teenagers and some adults have to construct their own jumps. Why can't
+              our council listen to our needs and create a designated area for riding? While this project may pose
+              challenges, I believe that with diligent effort, it can be accomplished.
+            </p>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="./assets/png/pro3.png" alt="Software Screenshot" class="projects__row-img" loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Dangerous Crossings</h3>
+            <p class="projects__row-content-desc">
+              One of the significant projects I would prioritize as Young Mayor is addressing the dangerous crossings,
+              as depicted in the picture on the left. With numerous cars and pedestrians passing through this
+              intersection daily, it poses a safety concern for pedestrians. The high volume of traffic often results in
+              congestion, making it challenging for pedestrians to cross safely. Currently, they must endure long
+              waiting times and risk the possibility of getting hit by a car.
+
+              To enhance pedestrian safety, I propose replacing the existing roundabouts at these intersections with
+              zebra crossings. This change would provide a designated and clearly marked path for pedestrians to cross,
+              ensuring their safety and reducing the potential for accidents. By implementing zebra crossings, we can
+              create a more pedestrian-friendly environment, allowing individuals to cross with confidence and
+              convenience.
+
+              Improving the safety of these crossings is an essential step towards creating a more secure and accessible
+              community for all. As Young Mayor, I would prioritize this project and work towards implementing the
+              necessary changes to protect pedestrians and enhance their overall experience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="contact" class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-2">
+          <h4 class="heading heading-sm text-lt">Contact</h4>
+          <p class="main-footer__short-desc">
+            ✉️ vote@ryderreid.net
+          <p class="main-footer__short-desc1">
+            📍 Horsham Victoria, Australia
+        </div>
+      </div>
+
+      <div class="main-footer__lower">
+        &copy; Copyright 2023 Vote Ryder Reid
+      </div>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
